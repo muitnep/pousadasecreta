@@ -1,0 +1,116 @@
+/*VARIABLES*/
+:root {
+  --dark-gray: #3d3d3d;
+  --font-color: #fff;
+  --border-header: #d5d5d5;
+  --color-span: #6592c9;
+  --back-desc-title: #0a9077b3;
+}
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*FONT used in all page*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*HEADER*/
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.top {
+  position: fixed;
+  width: 100%;
+  background-color: var(--font-color);
+  border-bottom: 1px solid var(--border-header);
+}
+
+.container {
+  max-width: 64rem; /*1024px*/
+}
+
+.top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.75rem; /*60px*/
+  padding: 0 0.625rem; /*10px*/
+  margin: 0 auto;
+}
+
+.link-logo {
+  margin: 0 2.5rem 0 0; /*40px*/
+  font-size: 1.5rem; /*24px*/
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
+.link-logo span {
+  color: var(--color-span);
+}
+
+.link-top {
+  text-transform: uppercase;
+  line-height: 1.125rem; /*18px*/
+  text-decoration: none;
+  padding: 0px 0.9375rem 0.625rem 0.9375rem; /*15px  10px*/
+  color: var(--dark-gray);
+}
+
+.link-top:hover {
+  border-bottom: 1px solid var(--color-span);
+}
+
+/*MAIN*/
+.content-title {
+  width: 100%;
+  background-image: url('../assets/img-fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-title-description {
+  color: var(--font-color);
+  font-size: 1.75rem; /*28px*/
+  background-color: var(--back-desc-title);
+  border: 1px solid;
+  padding: 2.5rem; /*20px*/
+  border-radius: 0.25rem; /*4px*/
+  text-align: center;
+}
+
+.content-title-description h1 {
+  margin-bottom: 1.9rem;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container h2 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin: 3rem;
+}
+
+.section-container p {
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0.6rem;
+}
+/*FOOTER*/
