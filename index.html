@@ -41,37 +41,41 @@
         </div>
       </div>
 
-      <section class="section-container">
-        <div>
-          <h2>SEJA BEM-VINDO(A)!</h2>
-          <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
-          <p>Temos quartos para solteiro, casal ou família.</p>
-        </div>
-      </section>
+      <div class="max-size-container section-container">
+        <h2>SEJA BEM-VINDO(A)!</h2>
+        <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
+        <p>Temos quartos para solteiro, casal ou família.</p>
+      </div>
 
-      <div id="room">
-        <div class="room-single">
+      <div id="rooms" class="max-size-container">
+        <div class="room">
           <img
             src="./assets/quarto-solteiro1.jpg"
             alt="Imagem quarto solteiro"
-          /><a href="quartos.html#solteiro">QUARTO DE SOLTEIRO</a>
+          />
+          <a href="quartos.html#solteiro">
+            <p>Quarto de Solteiro</p>
+          </a>
         </div>
-        <div class="room-couple">
-          <img src="./assets/quarto-casal1.jpg" alt="Imagem quarto casal" /><a
-            href="quartos.html#casal"
-            >QUARTO DE CASAL</a
-          >
+        <div class="room">
+          <img src="./assets/quarto-casal1.jpg" alt="Imagem quarto casal" />
+          <a href="quartos.html#casal">
+            <p>Quarto de Casal</p>
+          </a>
         </div>
-        <div class="room-family">
+        <div class="room">
           <img
             src="./assets/quarto-familia1.jpg"
             alt="Imagem quarto familia"
-          /><a href="quartos.html#familia">QUARTO FAMILIAR</a>
+          /><a href="quartos.html#familia"><p>Quarto de Familia</p></a>
         </div>
       </div>
-      <div id="route">
+
+      <div id="route" class="max-size-container section-container">
         <h2>ROTAS</h2>
         <p>Veja como chegar até a pousada</p>
+      </div>
+      <div class="container-route">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.118062389616!2d-43.36637978555836!3d-22.98268564636039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1627046255340!5m2!1spt-BR!2sbr"
           width="100%"
@@ -81,51 +85,75 @@
           loading="lazy"
         ></iframe>
       </div>
-      <div id="about">
+
+      <div
+        id="about"
+        class="max-size-container section-container container-description"
+      >
         <h2>SOBRE A POUSADA!</h2>
         <p>Conheça um pouco sobre nossa pousada.</p>
       </div>
-      <div class="about-content">
-        <div class="about-content-one">
-          <h3>A pousada</h3>
-          <p>
-            A pousada Dev dispõe de estacionamento privativo gratuito, piscina
-            ao ar livre e bar.
-          </p>
-          <img src="./assets/img1.jpg" alt="Imagem paisagem externa pousada" />
+
+      <div class="max-size-container descriptions">
+        <div class="description">
+          <div class="description-content">
+            <h3>A pousada</h3>
+            <p>
+              A pousada Dev dispõe de estacionamento privativo gratuito, piscina
+              ao ar livre e bar.
+            </p>
+          </div>
+          <img
+            class="description-img"
+            src="./assets/img1.jpg"
+            alt="Imagem paisagem externa pousada"
+          />
+        </div>
+        <div class="description">
+          <div class="description-content">
+            <h3>Nossos quartos</h3>
+            <p>
+              Nossos quartos possuem smart tvs a cabo, cozinha compacta e área
+              para refeições. Além disso, as unidades da Pousada Dev conta com
+              ar condicionado.
+            </p>
+          </div>
+          <img
+            class="description-img"
+            src="./assets/img2.jpg"
+            alt="Imagem do quarto da pousada dev"
+          />
         </div>
 
-        <div class="about-content-two">
-          <h3>Nossos quartos</h3>
-          <p>
-            Nossos quartos possuem smart tvs a cabo, cozinha compacta e área
-            para refeições. Além disso, as unidades da Pousada Dev conta com ar
-            condicionado.
-          </p>
-          <img src="./assets/img2.jpg" alt="Imagem do quarto da pousada dev" />
-        </div>
-        <div class="about-content-three">
-          <h3>Alimentação</h3>
-          <p>
-            A Pousada Dev serve café da manhã no estilo continental ou Buffet.
-            Nossos restaurantes funcionam 24h
-          </p>
+        <div class="description">
+          <div class="description-content">
+            <h3>Alimentação</h3>
+            <p>
+              A Pousada Dev serve café da manhã no estilo continental ou Buffet.
+              Nossos restaurantes funcionam 24h
+            </p>
+          </div>
           <img
+            class="description-img"
             src="./assets/img3.jpg"
             alt="Imagem do restaurante pousada dev"
           />
         </div>
 
-        <div class="about-content-four">
-          <h3>Recepção</h3>
-          <p>Nossa recepção fica aberta 24h.</p>
+        <div class="description">
+          <div class="description-content">
+            <h3>Recepção</h3>
+            <p>Nossa recepção fica aberta 24h.</p>
+          </div>
           <img
+            class="description-img"
             src="./assets/img5.jpg"
             alt="Imagem da recepção da pousada dev"
           />
         </div>
       </div>
     </main>
+
     <footer>
       <div class="footer-container">
         <div class="footer-content">
