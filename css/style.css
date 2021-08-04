@@ -7,6 +7,8 @@
   --back-desc-title: #0a9077b3;
   --room-border: #00836a;
   --link-a-room: #333;
+  --border-footer:#3b7863;
+  --footer-back:#49997d;
 }
 /*RESET*/
 * {
@@ -179,3 +181,54 @@ img {
 }
 
 /*FOOTER*/
+.footer {
+  
+  background-color: var(--footer-back);
+  color: var(--font-color); 
+
+}
+
+.footer h4{
+  font-size: 1.375rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1.625rem;
+}
+
+.footer-info {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  margin-right: .625rem;
+  color: var(--font-color);
+  text-decoration: none;
+
+}
+
+.footer-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: .625rem;
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 2.5rem;
+  border-top: 1px solid var(--border-footer);
+  color: var(--font-color);
+  font-weight: 600;
+  width: 100%;
+}
