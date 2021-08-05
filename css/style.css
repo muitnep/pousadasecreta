@@ -7,8 +7,8 @@
   --back-desc-title: #0a9077b3;
   --room-border: #00836a;
   --link-a-room: #333;
-  --border-footer:#3b7863;
-  --footer-back:#49997d;
+  --border-footer: #3b7863;
+  --footer-back: #49997d;
 }
 /*RESET*/
 * {
@@ -96,7 +96,7 @@ header nav ul {
   text-align: center;
 }
 
-#rooms {
+.rooms {
   display: flex;
   justify-content: space-between;
 }
@@ -182,13 +182,11 @@ img {
 
 /*FOOTER*/
 .footer {
-  
   background-color: var(--footer-back);
-  color: var(--font-color); 
-
+  color: var(--font-color);
 }
 
-.footer h4{
+.footer h4 {
   font-size: 1.375rem;
 }
 
@@ -207,16 +205,15 @@ img {
 }
 
 .footer-link {
-  margin-right: .625rem;
+  margin-right: 0.625rem;
   color: var(--font-color);
   text-decoration: none;
-
 }
 
 .footer-icon {
   width: 2.5rem;
   height: 2.5rem;
-  margin-right: .625rem;
+  margin-right: 0.625rem;
 }
 
 .footer-info a {
